@@ -1,0 +1,40 @@
+{
+  "run_id": "20260528_163245",
+  "steps": [
+    {
+      "step": "extract",
+      "input": 510,
+      "output": 510,
+      "dropped": 0,
+      "notes": ""
+    },
+    {
+      "step": "validate",
+      "input": 510,
+      "output": 510,
+      "dropped": 0,
+      "notes": "0 warnings"
+    },
+    {
+      "step": "clean",
+      "input": 510,
+      "output": 500,
+      "dropped": 10,
+      "notes": "dedup + impute + normalize"
+    },
+    {
+      "step": "transform",
+      "input": 500,
+      "output": 500,
+      "dropped": 0,
+      "notes": "\u2192 26 features"
+    },
+    {
+      "step": "load",
+      "input": 500,
+      "output": 500,
+      "dropped": 0,
+      "notes": "/Users/baiat/Desktop/now/MLOps/mini_projects/pandas_numpy/data/features_loans.csv"
+    }
+  ]
+}
